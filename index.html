@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Pokemon Platinum</title>
+		<style>
+			#webretro-container {
+				width: 100vw;
+				height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+			}
+
+      html {
+        overflow: hidden;
+      }
+		</style>
+	</head>
+	<body>
+		<div id="webretro-container"></div>	
+		<script type="text/javascript" src="script.js"></script>
+		<script>
+			var frame = webretroEmbed(document.getElementById("webretro-container"), "https://binbashbanana.github.io/webretro/", {core: "melonds", rom: "https://dl.dropboxusercontent.com/s/cfqgbktroumvc2x/platinum.nds", forcestartbutton: false});
+		</script>
+	</body>
+</html>
